@@ -20,3 +20,5 @@ raw_inputs = [
 ]
 outputs = model(**inputs)
 print(outputs.logits.shape)
+
+print(outputs.logits)
